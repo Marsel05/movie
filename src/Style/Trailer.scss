@@ -1,0 +1,11 @@
+#video {
+  .video {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    &--iframe{
+      margin: 0 10px 0 0;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+#movieDetails {
+  padding: 80px 0;
+  -webkit-box-shadow: 0 5px 100px 600px rgba(0, 0, 0, 0.78) inset;
+  -moz-box-shadow: 0 5px 100px 600px rgba(0, 0, 0, 0.78) inset;
+  box-shadow: 0 5px 10px 600px rgba(0, 0, 0, 0.78) inset;
+
+.trailer{
+  transition: .4s;
+
+  iframe{
+    width: 1050px;
+height: 490px;
+margin: 0 30px 0 0
+
+  }
+}
+  img {
+    border-radius: 20px;
+  }
+
+  .movieDetails {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #ffffff;
+
+    &--info {
+      width: 70%;
+h1:hover{
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+      &__genres {
+        margin: 5px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 800px;
+&__name:hover{
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+        h4 {
+          margin: 0 2px 0 0;
+          font-weight: 400;
+        }
+
+      }
+
+      &__tagline {
+        opacity: 70%;
+        font-weight: 600;
+        font-size: 18px;
+        font-style: italic;
+      }
+
+      &__obzor {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 20px 0;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 400;
+      }
+
+      &--average {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px 0;
+h4{
+  margin-left: -10px;
+}
+        &--play:hover{
+          color: rgba(255, 255, 255, 0.6);
+          cursor: pointer;
+        }
+        &--play {
+          display: flex;
+          align-items: center;
+
+          h4{
+            margin-left: 5px;
+          }
+        }
+        //&__vote:hover{
+        //  animation: scroll .4s ease-in-out;
+        //}
+        //@keyframes scroll {
+        //  100%{
+        //  transform: scale(1.1) ;
+        //  }
+        //}
+        &__vote {
+          span {
+            font-size: 12px;
+          }
+
+cursor: pointer;
+          margin: 0 20px 0 0;
+          font-size: 22px;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          border: 5px solid #43ff78;
+          border-radius: 50%;
+          background: #0b1e2d;
+
+
+        }
+
+        &--circle {
+          margin: 0 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 15px;
+          color: white;
+          width: 40px;
+          height: 40px;
+          background: #032541;
+          border-radius: 50%;
+
+          a {
+            color: #ffffff;
+          }
+        }
+      }
+
+    }
+
+
+  }
+}

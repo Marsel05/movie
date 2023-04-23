@@ -1,0 +1,44 @@
+#popular{
+
+  //background: url("https://images.wallpaperscraft.ru/image/single/linii_shtrihi_piatna_137329_3240x5760.jpg") no-repeat center/cover ;
+
+
+  .popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 6rem;
+    h1{
+    color: #ffffff;
+      margin: 20px 20px;
+  }
+    &--card{
+    width: 19%;
+    text-align: center;
+
+    img{
+
+
+      -webkit-box-shadow: 0 0 14px 11px rgba(0, 0, 0, 0.84);
+      -moz-box-shadow: 0 0 14px 11px rgba(0, 0, 0, 0.84);
+      box-shadow: 0 0 14px 11px rgba(0, 0, 0, 0.84);margin: 20px 0 0 0;
+      width: 100%;
+      border-radius: 17px;
+    }
+    h2{
+      margin-top: 20px;
+      color: #ffffff;
+      font-size: 22px;
+    }
+      p{
+        font-size: 17px;
+        font-weight: 700;
+        color: #777676;
+      }
+  }
+  }
+
+
+}

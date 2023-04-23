@@ -1,0 +1,65 @@
+@import "src/Style/Header";
+@import "src/Style/Footer";
+@import "src/Style/Home";
+@import "src/Style/Popular";
+@import "src/Style/TopRated";
+@import "src/Style/MovieDetails";
+@import "src/Style/actors";
+@import "src/Style/Trailer";
+@import "Style/ActorDetails";
+@import "Style/Film";
+@import "Style/FilmDetails";
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+#home {
+  margin: 0 0 -11px 0;
+  .home {
+    &--title{
+      button {
+        background: transparent;
+        padding: 0;
+        color: black;
+        z-index: -1;
+      }
+
+    }
+  }
+}
+html{
+  scroll-behavior: smooth;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.container2{
+  width: 100%;
+  margin: 0 auto;
+button:hover{
+  background: rgba(211, 20, 20, 0.89);
+}
+  button{
+    padding: 14px 40px;
+    background: rgb(255, 0, 0);
+    z-index:100;
+    top: 78%;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+  }
+}

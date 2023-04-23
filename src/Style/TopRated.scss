@@ -1,0 +1,46 @@
+#topRated{
+  .topRated{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 7rem;
+    position: relative;
+    h1{
+      color: #fff;
+      margin: 0 20px;
+    }
+    &--circle{
+      width: 40px;
+      position: absolute;
+      height: 40px;
+      border-radius: 100px;
+      border: 2px solid #00ff00;
+      background: #032541;
+      left: 20px;
+      top: 20px;
+    }
+    &--card{
+
+      width: 25%;
+      text-align: center;
+      img{
+
+        -webkit-box-shadow: 0 0 17px 14px rgba(47, 49, 49, 0.26);
+        -moz-box-shadow: 0 0 17px 14px rgba(47, 49, 49, 0.26);
+        box-shadow: 0 0 17px 14px rgba(47, 49, 49, 0.26);width: 100%;
+        border-radius: 10px;
+      }
+      h2{
+        margin: 10px;
+        font-weight: 700;
+
+      }
+      p{
+        font-weight: 600;
+        font-size: 15px;
+      }
+    }
+
+
+  }
+}

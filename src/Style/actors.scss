@@ -1,0 +1,21 @@
+#actors{
+  padding: 60px 0;
+  .actors{
+
+    &--card{
+      img{
+        border-radius: 10px;
+      }
+      display: flex;
+
+      text-align: center;
+      flex-direction: column;
+      //border: 2px solid blue;
+      margin: 20px 40px 20px 0;
+      h3{
+        margin: 5px 0;
+      }
+    }
+  }
+
+}
